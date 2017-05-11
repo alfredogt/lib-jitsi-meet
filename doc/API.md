@@ -254,6 +254,8 @@ The object represents a conference. We have the following methods to control the
 
 4. getLocalTracks() - Returns array with JitsiTrack objects for the local streams.
 
+4. getMyUserId() - Returns id(string) of the track local.
+
 5. addEventListener(event, listener) - Subscribes the passed listener to the event.
     - event - one of the events from ```JitsiMeetJS.events.conference``` object.
     - listener - handler for the event.
